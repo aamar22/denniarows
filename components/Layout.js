@@ -12,7 +12,7 @@ function Layout({children}) {
           
             <NavBar />
             
-            <Notify />
+            {/* <Notify /> */}
             {/* <Modal /> */}
             {children}
             <Notify />

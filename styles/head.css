@@ -16,20 +16,20 @@
  color:black;
  padding-top: 20px;
 }
-.ts{
-   
-    width: 100px;
-    margin-left:1400px;
-}
+
 .bg-danger{
     background-color: red;
 }
 .bg-success{
     background-color: green;
+    color: white;
+    text-align: center;
 }
-.fd{
+.fds{
     display: flex;
     justify-content: space-between;
+    max-width: 1450px;
+    margin: auto;
 }
 .navbar{
     background-color: white;
@@ -75,6 +75,9 @@
  
  
 }
+.fd{
+    display: flex;
+}
 .input-group{
     background-color: #031d51;
     color: red;
@@ -85,7 +88,7 @@
     height: 50px;
     margin-left: 281px;
 }
-.fd>h1{
+.fds>h1{
     /* padding-top: 17px; */
     padding-left: 60px;
     color: #031d51;
@@ -93,7 +96,7 @@
     font-weight: 800;
     font-size: 35px;
 }
-.fd>a{
+.fds>a{
     /* padding-top: 17px; */
     color: #031d51;
     font-size: 20px;
@@ -105,6 +108,89 @@ a:hover{
     background-color: #e87303;
     text-align: center;
     border-radius: 35px;
-    width: 160px;
-    height: 50px;
+    width: 200px;
+    
+}
+.drop>a{
+    color: #031d51;
+    font-size: 20px;
+    font-family: 'BuenosAires-Regular',Arial,sans-serif;
+     /* padding-top: 10px; */
+    font-weight: 800;
+    margin-left: 30px;
+}
+.hh{
+    padding-left: 30px;
+    /* padding-top: 10px; */
+}
+.nav-item{
+    margin-right: 30px;
+}
+.ts{
+    width: 40px;
+    justify-content: end;
+    margin-left: 1000px;
+    margin-top: -413px;
+}
+
+@media only screen and (max-width:1023px)
+{
+.fds{
+    max-width: 1224px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+.fds>h1{
+    padding-right: 10px;
+}
+.fd{
+    display: none;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-toggler-icon{
+    width: 20px;
+}
+.fl{
+display: flex;
+justify-content: space-around;
+}
+.icon{
+    background-image:url(../public/menu.png);
+    width:40px;
+    height:30px;
+    /* background-color: black;  */
+}
+.drop{
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+
+}
+.drop>a{
+    
+    color: #031d51;
+    font-size: 20px;
+    font-family: 'BuenosAires-Regular',Arial,sans-serif;
+     padding-top: 10px;
+    font-weight: 800;
+    /* text-align: center; */
+}
+.car{
+    margin-left: 70px;
+}
+.ts{
+   
+    /* width: 100px;
+    margin-left:1400px; */
+    width: 30px;
+    margin: auto;
+    margin-top: -407px;
+
+}
 }

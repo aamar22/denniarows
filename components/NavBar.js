@@ -75,15 +75,26 @@ function NavBar() {
             {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button> */}
-            <div className=" fd collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <div className=" fds collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                 <div className = "fl">
+                <div className="hh">
                 <Link href="/">
                 <h1>Arowdrops.in</h1></Link>
+                </div>
+                <div className="hm">
+                    <button className="icon"></button>
+                </div>
+                </div>
+              <div className="drop">
                 <Link href="about">
+                    
+                 
                 <a>About US</a></Link>
                 <a>Services</a>
                 <a>Contact US</a>
                 <a>Help&Support</a>
-
+             </div>
+             <div className="car">
                 <ul className="fs navbar-nav p-1">
                     <li className="nav-item">
                         <Link href="/cart">
@@ -117,6 +128,7 @@ function NavBar() {
                         : loggedRouter()
                     }
                 </ul>
+                </div>
             </div>
         </nav>
     )
